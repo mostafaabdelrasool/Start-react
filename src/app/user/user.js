@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-class App extends React.Component {
+export class User extends React.Component {
     render() {
         return (
             <div>
@@ -10,4 +10,3 @@ class App extends React.Component {
         );
     }
 }
-render(<App />, document.getElementById('app'));
